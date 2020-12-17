@@ -37,6 +37,7 @@
         android:id="@+id/flow_step_one_dest"
         android:name="com.example.android.codelabs.navigation.FlowStepFragment"
         tools:layout="@layout/flow_step_one_fragment">
+        <!-- arguments are defined in the flow_step_one_dest destination-->
         <argument
             android:name="flowStepNumber"
             app:argType="integer"
@@ -52,7 +53,7 @@
         android:id="@+id/flow_step_two_dest"
         android:name="com.example.android.codelabs.navigation.FlowStepFragment"
         tools:layout="@layout/flow_step_two_fragment">
-
+        <!-- arguments are defined in the flow_step_two_dest destination-->
         <argument
             android:name="flowStepNumber"
             app:argType="integer"
@@ -77,7 +78,7 @@
         android:name="com.example.android.codelabs.navigation.DeepLinkFragment"
         android:label="@string/deeplink"
         tools:layout="@layout/deeplink_fragment">
-
+        <!-- arguments are defined in the deeplink_dest destination-->
         <argument
             android:name="myarg"
             android:defaultValue="Android!"/>

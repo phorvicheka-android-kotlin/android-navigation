@@ -16,6 +16,7 @@
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+// apply safe args plugin
 apply plugin: 'androidx.navigation.safeargs.kotlin'
 
 android {
